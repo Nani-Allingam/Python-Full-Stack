@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="studentform.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Student Registration Form</h2>
+
+        <form action="thanks.html" method="post">
+
+            <!-- Full Name -->
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <!-- Email -->
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <!-- Phone -->
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" minlength="10" maxlength="10" required>
+
+            <!-- Gender -->
+            <label>Gender</label>
+            <!-- <div class="gender-box"> -->
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other <br><br>
+            <!-- </div> -->
+
+            <!-- Course Selection -->
+            <label>Course</label>
+            <select required>
+                <option value="">Select Course</option>
+                <option>Python Full Stack</option>
+                <option>Java Full Stack</option>
+                <option>Data Science</option>
+                <option>UI/UX</option>
+            </select>
+
+            <!-- Address -->
+            <label>Address</label>
+            <textarea rows="4" placeholder="Enter your address" required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

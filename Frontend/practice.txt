@@ -1,0 +1,49 @@
+## css :
+
+.title{
+    color: beige;
+    font-size: 70px;
+    text-align: center;
+}
+
+#intro{
+    color: rgb(244, 163, 70);
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+body{
+    background-image:url("https://wallpapercave.com/wp/wp2609969.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.box{
+    width:fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px dotted black;
+    background-color: bisque;
+    
+}
+
+
+## html
+
+<!DOCTYPE html>
+<html>
+    <head>
+<h1 class="title">My Website</h1>
+    </head>
+<body>
+<link rel="stylesheet" href="studentform.css">
+<p id="intro">Welcome to my site</p>
+
+<div class="box">
+  This is a box created with css
+</div>
+</body>
+</html>
